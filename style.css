@@ -1,0 +1,152 @@
+html, body { 
+    height: 100%;
+    color:#f3f3f3;
+/*    cursor: default;*/
+    overflow-x: hidden;
+    font-family: "arvo", Helvetica;
+} 
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.placement {
+  position: absolute;
+  top: 50vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.header h3{
+  line-height: 1.7;
+}
+
+.name:hover{
+  color: rgb(57,61,122);
+}
+
+.name{
+  font-size: 55px;
+  font-family: "arvo", Helvetica;
+  font-weight: 700;
+}
+
+.nuka, .lana{
+  height: 90vh;
+  width: auto;
+  position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.kaira{
+  height: 80vh;
+  width: auto;
+  position: absolute;
+    top: 15%;
+    left: 1%;
+}
+
+.gogo{
+  height: 90vh;
+  width: auto;
+  position: absolute;
+    top: 6.5%;
+    left: 25%; 
+}
+
+.kelechi{
+  height: 60vh;
+  width: auto;
+  position: absolute;
+    top: 23%;
+    left: 2.5%;
+}
+
+.mood:hover{
+  color: rgb(57,61,122);  
+}
+
+.mad:hover{
+  color: rgb(157,108,81);
+}
+
+.sad:hover{
+  color: rgb(108,136,157);
+}
+
+.happy:hover{
+  color: rgb(255,198,0);
+}
+
+.crappy:hover{
+  color: rgb(62,62,62);
+}
+
+.mad, .sad, .happy, .crappy, .mood{
+  color:#f3f3f3;
+}
+
+/*Colors*/
+.navy{
+  color: rgb(57,61,122);  
+}
+
+.brown{
+  color: rgb(157,108,81);
+}
+
+.blue{
+  color: rgb(108,136,157);
+}
+
+.yellow{
+  color: rgb(255,198,0);
+}
+
+.gray{
+  color: rgb(62,62,62);
+}
+
+.navyBgColor{
+  background-color: rgb(54,49,87);
+}
+
+.redBgColor{
+  background-color: rgb(110,37,36);
+}
+
+.blueBgColor{
+  background-color: rgb(108,136,157);
+}
+
+.yellowBgColor{
+  background-color: rgb(255,198,0);
+}
+
+.grayBgColor{
+  background-color: rgb(62,62,62);
+}
